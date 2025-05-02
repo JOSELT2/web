@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+:root{
+    --color_text-premary: #2c96dd;
+    --color_text-secundary: #101E2C;
+    --color_text-tertiary: #485663;
+    --main_color-primary:#101d8f;
+    --main_color-secundary:#e6dbdbd7;
+    --background-color:#27408d;
+    --lowText_form_size:16px;
+    --text_size_title: 48px;
+    --text_title_card:24px;
+    --text_title_cardv2:20px;
+    --text_paragraph:16px;
+    --box_shadow-primray:0px 6px 50x -20px rgba(0,0,0,0.2);
+}
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 100;
+}
+.container__header{
+    max-width: 1200px;
+    height: 100%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    position:relative;
+    z-index:1;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.menu{
+    display:flex;
+    align-items: center;
+
+}
+.menu nav{
+    margin: 0px 20px;
+}
+.menu nav ul{
+    display:flex;
+
+}
+
+.boton-text{
+    
+    width: 150px;
+    margin-top: 40px;
+    padding: px 20px;
+    text-align: center;
+    font-weight: 500;
+    background: rgb(12, 166, 226);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+
+.boton-text:hover {
+    background-color: transparent;
+    border: 2px solid skyblue;
+    color:skyblue;
+}
+
+.BOTON{
+    align-items: center;
+}
+.menu nav ul li{
+    list-style: none;
+    margin: px 16px;
+}
+.menu nav ul li a{
+    color:var(--color_text-secundary); /*variable*/
+    font-size: var(--lowText_form_size);
+    position: relative;
+}
+.btn__quote{
+    display: block;
+    padding:8px 40px;
+    border:3px solid #0d00bf;
+    border-radius:42px;
+    font-weight: 5000;
+    margin:0px 2px;
+    transition: all 400ms;
+
+}
+.Variables{
+    display: block;
+    padding:8px 40px;
+    border:3px solid #0d00bf;/*variable*/
+    border-radius:10px;
+    font-weight: 500;
+    margin:0px 2px;
+    transition: all 400ms;
+
+}
+.Listas{
+    display: block;
+    padding:8px 40px;
+    border:3px solid #0d00bf;
+    border-radius:10px;
+    font-weight: 500;
+    margin:0px 2px;
+    transition: all 400ms;
+
+}
+
+.Estructuras{
+    display: block;
+    padding:8px 40px;
+    border:3px solid #0d00bf;
+    border-radius:10px;
+    font-weight: 500;
+    margin:0px 2px;
+    transition: all 400ms;
+
+}
+
+.btn__quote:hover{
+    color:rgb(247, 247, 247);
+    background:#02a2ff ;
+}
+
+.Listas:hover{
+    color:rgb(12, 9, 180);
+    background:#eeff02 ;
+}
+
+.Estructuras:hover{
+    color:rgb(12, 9, 180);
+    background:#eeff02 ;
+}
+.Variables:hover{
+    color:rgb(12, 9, 180);
+    background:#eeff02 ;
+}
+
+.menu .image{
+    margin:0px 1px;
+}
+.menu .image img{
+    margin:4px;
+}
+
+.menu .image{
+    width: 1000px;;
+}
+
+.menu .image img{
+    width: 35px;
+}
+
+.menu .image a{
+    margin: 0px 0px;
+}
+
+
+/*portada de inicio*/
+.container__cover{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: var(--main_color-secundary);
+}
+
+.cover{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+.card__trust{
+    align-items: center;
+}
+.text__cover{
+    width: 100%;
+    padding-right: 150px;
+}
+
+.text__cover h1{
+    font-size: 50px;
+    color:var(--color_text-secundary);
+}
+
+.text__cover p{
+    font-size: var(--text_paragraph);
+    margin-top: 40px;
+    color:var(--color_text-tertiary);
+}
+
+.btn__text{
+    display: block;
+    width: 150px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 500;
+    background:rgb(12, 166, 226);
+    color: white;
+    border-radius: 10px;
+    border:2px solid transparent;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.btn__text:hover{
+    background-color: transparent;
+    border: 2px solid skyblue;
+    color:skyblue;
+}
+
+
+.image__cover{
+    width: 100%;
+}
+.image__cover img{
+    width: 550px;
+}
